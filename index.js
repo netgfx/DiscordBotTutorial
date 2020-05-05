@@ -11,13 +11,12 @@
  * :cloud_lightning:
  * :thermometer:
  */
-var key = require("./keys.js");
+var key = require("./_keys.js");
 const Discord = require("discord.js");
 const bot = new Discord.Client();
-const https = require('https');
 const axios = require('axios');
-var _ = require('lodash');
-var moment = require('moment');
+//var _ = require('lodash');
+//var moment = require('moment');
 
 const mainURL = 'https://api.weatherapi.com/v1/current.json'; // &q=Athens
 const weatherKey = "key=" + key.weatherapi;
