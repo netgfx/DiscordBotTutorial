@@ -18,7 +18,7 @@
     "dependencies": {
         "axios": "^0.19.2",
         "discord.js": "^12.2.0",
-        "moment": "^2.24.0"
+        "moment": "^2.29.2"
     },
     "author": "Michael Dobekidis",
     "license": "MIT",
